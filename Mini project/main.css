@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9e5c2d;
+    background-image: url(img/coffee111.jpg);
+background-repeat: no-repeat;
+background-position: right top;
+background-size: 100% 740px ;
+    }
+
+  img{
+      width: 100%;
+      height: 80vh;
+  }
+.text{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 15%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.btn{
+    width: 220px;
+    margin:20px 10px;
+    color:white;
+    font-size: 22px;
+    border:1px solid;
+    font-weight: 500;
+    background: rgb(192, 113, 60);
+    padding: 10px;
+    cursor:pointer;
+}
+#section2{
+    display: none;
+    margin-top: 30%;
+    margin-left: 30%;
+    width: 500px;
+    height: 450px;
+    border-radius: 45px;
+    background-color: rgba(34, 24, 10, 0.9);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+#payment{
+    width: 50%;
+    height: 35px;
+}
+#photo{
+    width: 90px;
+    height: 100px;
+    display: inline;
+
+}
+@media  only screen and (min-width: 769px) and (max-width:1024px) {
+    
+#section2{
+        margin-top: 50%;
+    }
+}
+@media  only screen and (max-width:768px) {
+    
+    #section2{
+            margin-top:70%;
+        }
+    }
