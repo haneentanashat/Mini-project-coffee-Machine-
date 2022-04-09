@@ -33,7 +33,6 @@ document.getElementById('buy').addEventListener("click", function () {
             break;
         default: document.getElementById('back').innerHTML = 'Please Enter Money like 1 or  5 or 10 or 20 or 50 ';
             document.getElementById('photo').style.display = 'none';
-            document.getElementById('remaining').style.display = 'none';
     }
 
 })
